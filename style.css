@@ -1,0 +1,41 @@
+body {
+    background-color: #cad1c6;
+    margin: 5px;
+    font-family: 'Roboto Serif', serif;
+}
+
+h1 {
+    padding: 5px;
+    border-bottom: 2px solid #61abaa;
+    text-align: center;
+    color: #2a7e82;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
+h2 {
+    padding: 5px;
+    border-bottom: 2px solid #61abaa;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2a7e82;
+    
+}
+
+h3 {
+    padding: 5px;
+    border-bottom: 2px solid #61abaa;
+    border-left: 2px solid #61abaa;
+    text-transform: uppercase;
+    color: #2a7e82;
+    font-weight: bold;
+}
+
+h4 {
+    color: #5c5050;
+}
+
+ul {
+    list-style-type: none;
+  }
