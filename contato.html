@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+    <!--Inserção do favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
     <title>Contato</title>
 </head>
 <body>
@@ -27,6 +30,7 @@
             <li><a class="linkMenu" href="populacao.html">Características Populacionais</a></li>
             <li><a class="linkMenu" href="estudo.html">Locais de Estudo</a></li>
             <li><a class="linkMenu" href="turismo.html">Pontos Turísticos</a></li>
+            <li><a class="linkMenu" href="videos.html">Vídeos</a></li>
             <li><a class="linkMenuAtivo" href="contato.html">Contato</a></li>
         </ul>
     </nav>
@@ -34,11 +38,54 @@
     <main>
         <article id="contato">
             <h2>Contato</h2>
+
+            <!--Início do formulário-->
+            <form action="">
+                Nome completo <input type="text" id="nome" name="nome" >
+                <hr />
+                Data de nascimento <input type="date" id="nascimento" name="nascimento">
+                <hr />
+                Endereço de e-mail <input type="email" id="email" name="email">
+                <hr />
+                Telefone <input type="tel" id="telefone" name="telefone">
+                <hr />
+                É residente na cidade do Rio de Janeiro? Sim <input type="radio" id="sim" name="opcao" value="sim"> Não <input type="radio" id="nao" name="opcao" value="nao">
+                <hr />
+                Você pretende visitar a cidade do Rio de Janeiro?
+                <select>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                    <option value="talvez">Talvez</option>
+                  </select>
+                <hr />
+
+                Quais pontos turísticos listados no site você já visitou?
+                <br />
+                Aquário <input type="checkbox" id="aquario" name="aquario" value="aquario">
+                <br />
+                Circo Voador <input type="checkbox" id="circoVoador" name="circoVoador" value="circoVoador">
+                <br />
+                Escadaria Selarón <input type="checkbox" id="escadariaSelaron" name="escadariaSelaron" value="escadariaSelaron">
+                <br />
+                Estádio do Maracanã <input type="checkbox" id="maracana" name="maracana" value="maracana">
+                <br />
+                Jardim Botânico <input type="checkbox" id="jardimBotanico" name="jardimBotanico" value="jardimBotanico">
+                <br />
+                Mural Etnias <input type="checkbox" id="muralEtnias" name="muralEtnias" value="muralEtnias">
+                <br />
+                Museu do Amanhã <input type="checkbox" id="museudoAmanha" name="museudoAmanha" value="museudoAmanha">
+                <br />
+                Parque Lage <input type="checkbox" id="parqueLage" name="parqueLage" value="parqueLage">
+                <br />
+                Parque Madureira <input type="checkbox" id="parqueMadureira" name="parqueMadureira" value="parqueMadureira">
+                <br />
+                Pedra do Telégrafo<input type="checkbox" id="pedradoTelegrafo" name="pedradoTelegrafo" value="pedradoTelegrafo">
+                <hr />
+                O quanto você gostou do site? <input type="range" id="range" name="range">
+                <hr />
+                <textarea name="sugestao" id="sugestao" cols="30" rows="10">Insira aqui a sua sugestão!</textarea>
+            </form>
         </article>
     </main>
-
-    <footer>
-        
-    </footer>
 </body>
 </html>
